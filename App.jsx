@@ -30,7 +30,7 @@ ChartJS.register(
   Filler
 );
 
-const API_KEY = e774c6dc39bc4df1cc2a6eb89c44ef80;
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 
 export default function App() {
   const [cityInput, setCityInput] = useState("");
